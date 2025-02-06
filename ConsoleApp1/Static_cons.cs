@@ -29,7 +29,10 @@ class Staticcons
 // main method is ThreadExceptionEventHandler");
 
 /*
-
+class First
+{
+public int x=100;
+}
 class Second
 {
     public int x;
@@ -38,11 +41,14 @@ class Second
     this.x=x;   // this prints different variables passingthrough objects
     }
 }
+class TestClass
+{
 static void main()
 {
   Second s1 = new Second(100);
   Second s2 = new Second(200);
 
+}
 }
 
 
